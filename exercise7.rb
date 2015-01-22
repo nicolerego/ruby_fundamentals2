@@ -17,3 +17,11 @@ cohort_stats(students)
 
 puts students.keys
 
+def bigger_classrooms(stat)
+	stat.each do |cohort, num|
+		new_num = (num * 0.05).to_i + num
+		puts "#{cohort}: #{new_num} students"
+	end
+end
+
+bigger_classrooms(students)

@@ -28,3 +28,8 @@ bigger_classrooms(students)
 
 students.delete_if { |key, value| key == :cohort4 }
 cohort_stats(students)
+
+#BONUS
+sum_of_students = 0
+students.each { |cohorts, num| sum_of_students += num }
+puts sum_of_students

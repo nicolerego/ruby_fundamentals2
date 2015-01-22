@@ -21,3 +21,6 @@ else
 end 
 
 puts grocery_list[1]
+
+alphabetical_list = grocery_list.sort
+print_list(alphabetical_list)

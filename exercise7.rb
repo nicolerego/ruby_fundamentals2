@@ -11,3 +11,9 @@ def cohort_stats(stat)
 end 
 
 cohort_stats(students)
+
+students[:cohort4] = 43
+cohort_stats(students)
+
+puts students.keys
+

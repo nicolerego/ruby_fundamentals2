@@ -25,3 +25,6 @@ def bigger_classrooms(stat)
 end
 
 bigger_classrooms(students)
+
+students.delete_if { |key, value| key == :cohort4 }
+cohort_stats(students)
